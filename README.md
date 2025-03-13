@@ -40,7 +40,7 @@ const web3Connection = new Connection(
   );
 
 async function sendPortalTransaction(){
-      const response = await fetch(`https://astgo.vip/api/trade-local`, {
+      const response = await fetch(`https://astgo.vip/api/PumpTrade-Local`, {
           method: "POST",
           headers: {
               "Content-Type": "application/json"
